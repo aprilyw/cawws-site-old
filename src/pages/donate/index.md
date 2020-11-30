@@ -1,7 +1,7 @@
 ---
-templateKey: 'issues-page'
-path: /issues
-title: Magazine
+templateKey: 'donate-page'
+path: /donate
+title: Contribute
 ---
 ### Our Mission
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non turpis in nulla porttitor maximus. Sed sagittis diam quis suscipit gravida. Aenean placerat diam in bibendum tristique. Suspendisse aliquam enim bibendum, viverra ex sit amet, efficitur sem. Etiam dapibus ipsum augue, a aliquet augue luctus ut. Mauris lobortis lacus lorem, eu dapibus ligula laoreet a. Nunc iaculis elementum sapien, eu accumsan ante. Donec sit amet eros a quam elementum sodales ut mollis elit. Sed imperdiet ullamcorper consequat. 
