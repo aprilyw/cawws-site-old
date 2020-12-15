@@ -1,11 +1,19 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
-    description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
-  },
+    title: 'Chicago Asian Writers Workshop',
+    description: 'Site for CAWWS.'
+    },
   plugins: [
     'gatsby-plugin-react-helmet',
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["basier_circle_monomedium"],
+          urls: ["/fonts/fonts.css"],
+        },
+      },
+    },
     {
       resolve: 'gatsby-plugin-sass',
       options: {
