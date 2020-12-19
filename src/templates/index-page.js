@@ -15,29 +15,49 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest News
-                  </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/news">
-                      Read more
-                    </Link>
-                  </div>
-                </div>
-              </div>
+
+<section class="hero is-primary is-fullheight-with-navbar">
+  <div class="hero-body">
+    <div class="container">
+      <p class="title">
+        Fullheight hero with navbar
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div className="container is-fullheight">
+    <h3 className="has-text-weight-semibold is-size-2">
+                  Latest News
+    </h3>
+      <div className="columns">
+        <div className="column is-10 is-offset-1">
+          <div className="content">
+            <div className="column is-12">
+
+              <BlogRoll />
             </div>
+
+            <div className="column is-2 is-pulled-right">
+            <Link to= '/latest'> Read more</Link>
+            </div>
+
+            
           </div>
         </div>
       </div>
-    </section>
+    </div>
+</section>
+
+<section className="is-fullheight">
+  <div className="container">
+    <h3 className="has-text-weight-semibold is-size-2">
+                  Publications
+    </h3>
+  </div>
+
+</section>
   </div>
 )
 
