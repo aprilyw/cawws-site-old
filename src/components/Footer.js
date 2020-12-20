@@ -15,38 +15,12 @@ const Footer = class extends React.Component {
           <div className="container has-background-info-light has-text-black-ter">
             <div style={{ maxWidth: '100vw' }} className="columns">
               <div className="column is-4">
-                <section className="menu">
-                  <ul className="menu-list">
-                    <li>
-                      <Link to="/" className="navbar-item">
-                        Home
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/about">
-                        About
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/issues">
-                        Issues
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/donate">
-                        Donate
-                      </Link>
-                    </li>
-                  </ul>
-                </section>
+                <h5> c april wang </h5>
               </div>
               <div className="column is-4">
-                <section>
-                  <ul className="menu-list">
-
-                  </ul>
-                </section>
               </div>
+
+
               <div className="column is-4 social">
                 <a title="facebook" href="https://facebook.com">
                   <img

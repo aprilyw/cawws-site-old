@@ -3,16 +3,13 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import BlogRoll from '../components/BlogRoll'
+import LatestRoll from '../components/LatestRoll'
 
 export const IndexPageTemplate = ({
-  image,
-  title,
   heading,
   subheading,
   mainpitch,
   description,
-  intro,
 }) => (
   <div>
 
@@ -36,7 +33,7 @@ export const IndexPageTemplate = ({
           <div className="content">
             <div className="column is-12">
 
-              <BlogRoll />
+              <LatestRoll />
             </div>
 
             <div className="column is-2 is-pulled-right">
@@ -79,13 +76,10 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <IndexPageTemplate
-        image={frontmatter.image}
-        title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
-        intro={frontmatter.intro}
       />
     </Layout>
   )
