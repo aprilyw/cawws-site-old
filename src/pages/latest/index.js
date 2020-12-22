@@ -7,11 +7,11 @@ export default class BlogIndexPage extends React.Component {
   render() {
     return (
       <Layout>
-          <h1
-            className="has-text-weight-bold is-size-1"
+          <div
+            class="column is-half is-offset-one-quarter is-fullheight-with-navbar"
           >
-            Latest News
-          </h1>
+            <h3 className="has-text-weight-semibold is-size-2">Latest News</h3>
+          </div>
         <section className="section">
           <div className="container">
             <div className="content">
